@@ -31,5 +31,5 @@ int main()
   {
     cout << (manager+j)->made << "년형 " << (manager+j)->brand << endl;
   }
-
+  delete manager;
 }
